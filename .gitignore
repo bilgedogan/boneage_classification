@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+data/train/
+data/val/
+outputs/
+calibrate_crc_fnr_fpr.py
+.DS_Store
+.vscode
