@@ -5,7 +5,7 @@ from torchvision import transforms
 from PIL import Image
 from pathlib import Path
 from sklearn.model_selection import train_test_split
-from boneage_classification.config import DATA_DIR, IMG_SIZE, BATCH_SIZE
+from config import DATA_DIR, IMG_SIZE, BATCH_SIZE
 
 class BoneAgeDataset(Dataset):
     """Returns ({'image_input', 'sex_input'}, label) with label = 1{bone age < 11y}."""

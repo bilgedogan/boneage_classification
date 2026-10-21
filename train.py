@@ -24,9 +24,9 @@ from sklearn.metrics import roc_auc_score, log_loss, brier_score_loss, f1_score
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from boneage_classification.config import OUTPUT_DIR, BATCH_SIZE
-from boneage_classification.data_loader import load_data, build_datasets, build_val_or_test_loader
-from boneage_classification.model import BoneAgeClassifier, BACKBONES
+from config import OUTPUT_DIR, BATCH_SIZE
+from data_loader import load_data, build_datasets, build_val_or_test_loader
+from model import BoneAgeClassifier, BACKBONES
 
 
 def get_device():

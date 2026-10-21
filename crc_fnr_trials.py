@@ -30,8 +30,8 @@ from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from boneage_classification.config import OUTPUT_DIR
-from boneage_classification.crc_fnr_plots import plot_histograms, plot_alpha_summary
+from config import OUTPUT_DIR
+from crc_fnr_plots import plot_histograms, plot_alpha_summary
 
 ALPHAS = [0.01, 0.05, 0.10, 0.15, 0.20, 0.25]
 
