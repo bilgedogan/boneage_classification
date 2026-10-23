@@ -84,7 +84,7 @@ def main():
                         help="override; default OUTPUT_DIR/classification/<backbone>/seed<seed>")
     parser.add_argument("--alphas", type=float, nargs="+", default=ALPHAS)
     parser.add_argument("--num_trials", type=int, default=1000)
-    parser.add_argument("--num_calib", type=int, default=1000,
+    parser.add_argument("--num_calib", type=int, default=3153,
                         help="calib examples per trial (all classes; FNR uses its positives)")
     parser.add_argument("--num_lam", type=int, default=1000, help="λ grid size on [0, 1]")
     parser.add_argument("--pool", choices=["calib+test", "calib"], default="calib+test",
